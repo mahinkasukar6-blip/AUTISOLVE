@@ -1,0 +1,64 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history/
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IDE files
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+service-account*.json
+firebase-adminsdk*.json
+
+# Firebase local files
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# Flutter and Dart generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Flutter web build output
+/build/web/
+
+# Android generated build files
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# Symbolication and obfuscation files
+app.*.symbols
+app.*.map.json
+
+# Widget Preview
+.widget_preview/
+
+# AI agent-generated files
+.agents/
